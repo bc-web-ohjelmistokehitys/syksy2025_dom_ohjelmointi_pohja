@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arvostelut</title>
+    <link rel="stylesheet" href="../../../style.css" />
+  </head>
+  <body>
+    <h1>Elokuva-arvostelu</h1>
+    <div id="container">
+      <input type="text" id="elokuvaNimi" placeholder="Elokuvan nimi" /><br />
+      <textarea id="arvostelu" rows="4" cols="50"></textarea><br />
+      <select id="tahdet">
+        <option value="1" selected>1 tähti</option>
+        <option value="2">2 tähteä</option>
+        <option value="3">3 tähteä</option>
+        <option value="4">4 tähteä</option>
+        <option value="5">5 tähteä</option></select
+      ><br />
+      <button id="lisaaArvostelu">Lisää arvostelu</button>
+      <div id="virheviesti"></div>
+      <div id="arvosteluLista"></div>
+    </div>
+  </body>
+  <script src="elokuva.js"></script>
+</html>
